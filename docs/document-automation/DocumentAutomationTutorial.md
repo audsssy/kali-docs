@@ -34,6 +34,7 @@ In drafting legal documents, legal professionals often borrow boilerplate text w
 For document automation purposes, we want to give each placeholder (*i.e.*, `_____`) a name or variable so that the Kali document generator may recognize and replace placeholders with corresponding user inputs.  
 
 An updated version of the above example with placeholders may look like below, where `[DATE]`, `[PARTY A]` and `[ADDRESS]` are the variables to be replaced with user inputs. 
+
 `This agreement is made and entered into effective as of [DATE], by and between [PARTY A], a limited liability company, located at [ADDRESS] ...`
 
 Lastly, we must insert all the variables within the `{ }` at line 71 of BlankTemplate.js. 
