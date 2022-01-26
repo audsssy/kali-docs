@@ -83,7 +83,7 @@ Thus far, you've set up a code editor, created a Javascript .js file, filled it 
 
 Now that you've done most of the heavy-lifting, we'll help you get through this last part. Simply fill out this Google Form and Kali will set up a form like below on the front end so that user may supply case-specific information for Kali document generator to fill the placeholders in the legal template with. 
 
-![](https://i.imgur.com/Gglpxkc.png)
+![](https://i.imgur.com/BWI5bkI.png)
 
 Once you submit the Google Form, pop into the [KaliDAO Discord](https://discord.gg/fRK8dvTkHM) and let us know how you wish to use your legal templates! 
 
