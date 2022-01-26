@@ -1,17 +1,21 @@
 # Tutorial for Legal Document Automation 
 
 ### Introduction
+
 Professionals in the legal sector know that lawyering often involves paperwork. That’s where document automation comes in. Document automation allows you to automate document creation with the help of smart templates. In general, document automation helps in creating documents in a short period of time with consistent results.
 
 Legal document automation is essential for improving and optimizing the way lawyers run their practice, and especially important for Kali to offer as a DAO self-help tool. With it, Kali ensures that the document is easily accessible, sharable, and well organized.
 
 ### Kali
+
 Kali is a legal DAO deployer; it is different from other DAO frameworks in that Kali wraps DAOs with bespoke legal instruments at inception. 
 
 Ultimately, we envision Kali automating legal documents for DAOs to effortlessly manage and process legal tasks, conduct commercial activities in meatspace, DAO2DAO collaborations in the metaverse, and many more. 
 
 ### Document Automation, the Kali Wei
+
 **1. Set up a drafting environment**
+
 Much like using Microsoft Word as the environment to draft legal documents, we need a specific environment to draft the legal templates for document automation purposes. To auto-generate legal documents, Kali uses [Javascript programming language](https://en.wikipedia.org/wiki/JavaScript) and the [React framework](https://reactjs.org/). 
 
 No worries if you're not familiar with the Javascript language or programming in general. All you'll need to do is to download an integrated development environment (IDE), a.k.a. code editor, to "program" legal templates.
@@ -19,6 +23,7 @@ No worries if you're not familiar with the Javascript language or programming in
 At Kali, we recommend downloading [Visual Studio Code](https://code.visualstudio.com/).
 
 **2. Draft legal template**
+
 Once a code editor is set up, we can start drafting our legal document. For convenience, we've prepared a [BlankTemplate.js file](https://github.com/audsssy/kali-docs/blob/document-automation/docs/template/BlankTemplate.js) for you to get started. 
 
 Locate the line that says `YOUR LEGAL TEMPLATE GOES HERE`, and paste your legal template starting on the line below (line 76).
@@ -27,6 +32,7 @@ Locate the line that says `YOUR LEGAL TEMPLATE GOES HERE`, and paste your legal 
 
 
 **3. Define template-specific variables**
+
 In drafting legal documents, legal professionals often borrow boilerplate text with placeholders and fill them with case-specific information, *e.g.*, names and dates. A boilerplace with placeholders may look like this: 
 
 `This agreement is made and entered into effective as of ______, by and between ______, a limited liability company, located at ______...`
