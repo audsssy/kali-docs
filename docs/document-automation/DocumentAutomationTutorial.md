@@ -24,7 +24,7 @@ At Kali, we recommend downloading [Visual Studio Code](https://code.visualstudio
 
 **2. Draft legal template**
 
-Once a code editor is set up, we can start drafting our legal document. For convenience, we've prepared a [BlankTemplate.js file](https://github.com/audsssy/kali-docs/blob/document-automation/docs/template/BlankTemplate.js) for you to get started. 
+Once a code editor is set up, we can start drafting our legal document. For convenience, we've prepared a [BlankTemplate.js file](https://github.com/audsssy/kali-docs/blob/document-automation/docs/document-automation/BlankTemplate.js) for you to get started. 
 
 Locate the line that says `YOUR LEGAL TEMPLATE GOES HERE`, and paste your legal template starting on the line below (line 76).
 
