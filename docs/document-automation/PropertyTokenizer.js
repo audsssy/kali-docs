@@ -67,7 +67,7 @@ const Br = () => "\n"
 const Tab = () => "  "
 
 // Template
-const PropertyTokenizer = ({ header, effectivedate, owneraddress, holder, holderaddress, propertydesc, licenselang, token, amount, term, licensefee, prohibitions, choiceoflaw, designatedclient, network, networkid, chainid, smartaddress   }) => {
+const PropertyTokenizer = ({ header, effectivedate, owneraddress, holder, holderaddress, propertydesc, licenselang, token, amount, term, licensefee, prohibitions, choiceoflaw, designatedclient, network, networkid, chainid, smartaddress, imagelink   }) => {
   return (
     <Document>
       <Page style={styles.body}>
@@ -101,7 +101,7 @@ Upon the termination of this Agreement after Owner excercises the Option or thro
 <p><strong>Title to Real Property</strong>
  Owner expressly acknowledges and agrees that Owner has good and sufficient title to the Real Property, including but not limited to that portion that is shown on the Site Plan as Severed Property. Holder gains access to and acknowledges that Real Property is taken &quot;As Is&quot; and &quot;With All Faults.&quot; Holder further acknowledges and agrees that the License granted herein is permissive in nature, and Holder waives any and all claims of whatsoever kind or character, including but not limited to claims of adverse possession, to any interest in Real Property arising from or relating in any way to the License granted herein. This Agreement is expressly granted with the understanding that the licensed use shall not constitute adverse possession of any portion of Real Property. This Agreement shall not in any way limit Owner&#39;s ability to license or otherwise dispose of land not subject to the terms of this Agreement. The provisions of this paragraph shall survive the termination of this Agreement.</p>
 <p><strong>Governing Law</strong>
- Construction of Agreement, and Venue. The interpretation and enforcement of this Agreement shall be governed by the laws of the State of {choiceoflaw}}. The Parties acknowledge that this Agreement was produced by arms-length negotiation between sophisticated parties with equal bargaining power. The Parties agree that the rule of construction that any ambiguities are to be construed against the drafting party shall not be employed in any interpretation of this Agreement.</p>
+ Construction of Agreement, and Venue. The interpretation and enforcement of this Agreement shall be governed by the laws of the State of {choiceoflaw}. The Parties acknowledge that this Agreement was produced by arms-length negotiation between sophisticated parties with equal bargaining power. The Parties agree that the rule of construction that any ambiguities are to be construed against the drafting party shall not be employed in any interpretation of this Agreement.</p>
 <p><strong>Entire Agreement</strong>
  Attorneys&#39; Fees. This Agreement constitutes the complete and entire agreement between the Parties and supersedes all prior written or oral negotiations, representations or agreements between the Parties as to the subject matter of this Agreement. The terms of this Agreement may not be modified except by a writing signed by all of the Parties. In any dispute, conflict, legal action or other proceeding arising out of, or brought to construe or enforce any of the provisions of, this Agreement, the prevailing party shall be entitled to recover its costs and attorneys&#39; fees from the non-prevailing party. The provisions of this paragraph shall survive the termination of this Agreement.</p>
 <p><strong>Counterparts; Signatures</strong>
@@ -110,7 +110,7 @@ Upon the termination of this Agreement after Owner excercises the Option or thro
 <p>/s Owner</p>
 <p>/s Holder</p>
 <p><strong>EXHIBIT A - SITE PLAN</strong></p>
-<p><img src="RackMultipart20210623-4-19zw34c_html_8826902ba2f9a424.png" alt=""></p>
+<p></p>
 <p><strong>EXHIBIT B - General Definitions</strong></p>
 <p>(a) **&quot;Account Address&quot;** means a public key address on the Designated Blockchain Network that is uniquely associated with a single private key, and at which no smart contract has been deployed.</p>
 <p>(b) **&quot;Claim&quot;** means any past, present or future dispute, claim, controversy, demand, right, obligation, liability, action or cause of action of any kind or nature.</p>
@@ -120,7 +120,7 @@ Upon the termination of this Agreement after Owner excercises the Option or thro
 <p>(f) **&quot;Contract&quot;** means any: (i) written, oral, implied by course of performance or otherwise or other agreement, contract, understanding, arrangement, settlement, instrument, warranty, license, insurance policy, benefit plan or legally binding commitment or undertaking; or (ii) any representation, statement, promise, commitment, undertaking, right or obligation that may be enforceable, or become subject to an Order directing performance thereof, based on equitable principles or doctrines such as estoppel, reliance, or quasi-contract.</p>
 <p>(g) **&quot;Severed Property Token&quot;** means any Token or other asset, right or property licensed to or on deposit with or owned, held, custodied, controlled or possessed by or on behalf of Holder, including any Token on deposit with or held, controlled, possessed by or on deposit with the Designated Smart Contract relating to the Severed Property.</p>
 <p>(h) **&quot;Designated Blockchain&quot;** means at any given time, the version of the digital blockchain ledger that at least a majority of nodes running the Designated Client on the Designated Blockchain Network recognize as canonical as of such time in accordance with the Consensus Rules. For the avoidance of doubt, the &quot;Designated Blockchain&quot; does not refer to ETHEREUM CLASSIC or any digital blockchain ledger commonly known as a &quot;testnet&quot;.</p>
-<p>(i) **&quot;Designated Blockchain Network&quot;** means the {network} mainnet (networkID:{networkid}}, chainID:{chainid})&quot; as recognized by the Designated Client.</p>
+<p>(i) **&quot;Designated Blockchain Network&quot;** means the {network} mainnet (networkID:{networkid}, chainID:{chainid})&quot; as recognized by the Designated Client.</p>
 <p>(j) **&quot;Designated Client&quot;** means the {designatedclient}</p>
 <p>(k) **&quot;Designated Smart Contract&quot;** means the smart contract deployed on {network} mainnet (networkID:{networkid}, chainID:{chainid}) at {smartaddress}.</p>
 <p>(l) **&quot;Distributed Property&quot;** means any asset, right or property that was once Severed Property Token and has been distributed.</p>
